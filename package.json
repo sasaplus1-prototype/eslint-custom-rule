@@ -1,0 +1,19 @@
+{
+  "name": "eslint-plugin-example",
+  "main": "./eslint-plugin-example.js",
+  "private": true,
+  "scripts": {
+    "test": "node custom-rule.test.js"
+  },
+  "devDependencies": {
+    "eslint": "^8.55.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=8.0.0"
+  },
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ]
+}
